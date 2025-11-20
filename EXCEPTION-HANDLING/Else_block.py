@@ -1,9 +1,3 @@
-# a = int(input("Enter a num:"))
-# b = int(input("Enter a num:"))
-# res = a/b
-# print(res)
-
-
 a = int(input("Enter a num:"))
 b = int(input("Enter a num:"))
 try:
@@ -11,3 +5,5 @@ try:
     print(res)
 except Exception as e:
     print("Error occured")
+else:
+    print("pgm run successfully")
