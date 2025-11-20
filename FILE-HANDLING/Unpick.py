@@ -6,8 +6,7 @@ class Employee:
     def disp(self):
         print(self.name)
         print(self.age)
-e = Employee()
-
-f = open('Gireesh.txt','wb')
-pickle.dump(e,f)
-f.close()
+f = open('Gireesh.txt','rb')
+e = pickle.load(f)
+print("Obj is retrieved")
+e.disp()
